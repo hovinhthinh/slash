@@ -1,0 +1,75 @@
+{
+  "name": "slash",
+  "version": "0.0.2",
+  "description": "The web information extraction crawler.",
+  "author": "",
+  "contributors": [
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "main": "lib/bootstrap.js",
+  "bin": {
+    "slash": "bin/slash.js",
+    "slash-crawl": "bin/slash-crawl.js",
+    "slash-requeue": "bin/slash-requeue.js",
+    "slash-push": "bin/slash-push.js",
+    "slash-info": "bin/slash-info.js",
+    "slash-stats": "bin/slash-stats.js"
+  },
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "gulp lint test",
+    "watch": "gulp watch",
+    "start": "node ."
+  },
+  "dependencies": {
+    "babel": "^4.5.1",
+    "bluebird": "^2.9.12",
+    "cheerio": "^0.18.0",
+    "co": "^4.4.0",
+    "co-each": "^0.1.0",
+    "co-redis": "^1.1.1",
+    "co-request": "^0.2.0",
+    "co-sleep": "0.0.1",
+    "commander": "^2.6.0",
+    "defaults": "^1.0.0",
+    "end-of-stream": "^1.1.0",
+    "lru-cache": "^2.5.0",
+    "monk": "^0.9.1",
+    "normalize-url": "^1.2.0",
+    "readable-stream": "^1.1.13",
+    "redis": "^0.12.1",
+    "stream-consume": "^0.1.0",
+    "through2": "^0.6.3"
+  },
+  "optionalDependencies": {
+    "hiredis": "^0.2.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.0",
+    "co-mocha": "^1.1.0",
+    "del": "^1.1.1",
+    "esprima-fb": "^13001.1001.0-dev-harmony-fb",
+    "gulp": "^3.8.11",
+    "gulp-cached": "^1.0.2",
+    "gulp-help": "^1.3.3",
+    "gulp-jscs": "^1.5.1",
+    "gulp-istanbul": "^0.6.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-strip-shebang": "^0.1.0",
+    "gulp-util": "^3.0.4",
+    "isparta": "^2.1.0",
+    "jshint-stylish": "^1.0.1",
+    "mocha": "^2.1.0",
+    "multipipe": "^0.1.2",
+    "require-dir": "^0.1.0",
+    "rewire": "^2.3.1",
+    "run-sequence": "^1.0.2",
+    "sinon": "^1.12.2",
+    "sinon-chai": "^2.7.0"
+  },
+  "private": true
+}

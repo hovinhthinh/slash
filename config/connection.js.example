@@ -1,0 +1,10 @@
+module.exports = {
+  proxy: {
+    host: null,
+    port: null,
+    username: null,
+    password: null
+  },
+  timeout: 10000,
+  attempt: 5
+};

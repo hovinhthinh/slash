@@ -1,0 +1,27 @@
+{
+  "preset": "google",
+  "esnext": true,
+
+  "disallowSpacesInAnonymousFunctionExpression": null,
+
+  "disallowSpacesInsideObjectBrackets": null,
+  "disallowSpacesInsideArrayBrackets": null,
+
+  "requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+  },
+  "requireSpacesInFunctionExpression": {
+    "beforeOpeningCurlyBrace": true
+  },
+
+  "requireSpacesInsideArrayBrackets": {
+    "allExcept": [ "[", "]", "{", "}" ]
+  },
+  "requireSpacesInsideObjectBrackets": {
+    "allExcept": [ "]", "}", ")" ]
+  }
+}

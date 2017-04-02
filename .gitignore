@@ -1,0 +1,19 @@
+# OS meta files
+.DS_Store
+
+# Dependencies and `npm` stuffs
+node_modules/
+npm-debug.log
+
+# Coverage reports
+/coverage/
+
+# Configurations
+/config/connection.js
+/config/database.js
+
+# For keeping directory structure
+!.keep
+
+# Redis temporary file
+dump.rdb

@@ -1,0 +1,10 @@
+module.exports = {
+  mongo: {
+    uri: 'localhost/slash'
+  },
+  redis: {
+    host: 'localhost',
+    port: 6379,
+    namespace: 'slash'
+  }
+};
