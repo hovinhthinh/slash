@@ -1,4 +1,5 @@
 # slash
+[![Build Status](https://travis-ci.org/hovinhthinh/slash.svg?branch=master)](https://travis-ci.org/hovinhthinh/slash)
 
 The web information extraction crawler.
 Currently implemented for mp3.zing.vn and nhaccuatui.com
